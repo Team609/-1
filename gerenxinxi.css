@@ -1,0 +1,17 @@
+.table{
+
+}
+input{
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    height: 95px;
+    width: 100px;
+    top: 11%;
+    z-index: 9;
+
+}
+input:hover {
+    opacity:.85;
+    cursor: pointer;
+}
