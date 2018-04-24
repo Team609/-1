@@ -1,4 +1,5 @@
 .table{
+    font-size: 25px;
 
 }
 input{
@@ -13,5 +14,21 @@ input{
 }
 input:hover {
     opacity:.85;
+    cursor: pointer;
+}
+.fileinputa{
+    
+    position: relative;
+}
+.fileinput{
+    height: 42%;
+    width: 35%;
+    overflow: hidden;
+    font-size: 0px;
+    position: absolute;
+    right: 10%;
+    top: 37%;
+    opacity: 0;
+    filter: alpha(opacity=0);
     cursor: pointer;
 }
