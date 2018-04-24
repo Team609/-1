@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeeeee;
+}
+table,p,div{
+    font-size: 40px;
+}
+.daohan{
+    background-color: rgb(15, 20, 156);
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+.daohan tr td{
+    width: 120px;
+}
+
+/*底部导航栏*/
+.nav {
+    background: #0f149c;
+    padding: 10px 0 6px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.nav ul {
+    height: 0px;
+}
+.nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul li span{
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    font-family: "微软雅黑";
+    line-height: 40px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-weight: normal;
+}
+/**/
+
+
+
+
+.div-main{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #888888;
+}
+div{
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid #999999;
+    color: #555555;
+    overflow: hidden;
+
+
+}
+div h2{
+    color: #000;
+
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow: hidden;
+
+}
+div div {
+    padding: 0px;
+    max-height: 140px;
+    line-height: 45px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.div-center{
+    text-align: center;
+    width: 90%;
+}
+.div-pinglun{
+    font-size: 20px;
+    color: #4b6db9;
+}
+
+#divcss5{
+    margin:0 auto;
+    border:1px solid #000;
+}
+.loge{
+    width: 25%;
+    top: 0px;
+    border: none;
+    position: relative;
+    left: -25%;
+}
+.img-add-nav{
+    float: right;
+    text-align: left;
+    width: 75%;
+    position: static;
+    left: 25%;
+
+    padding: 0px;
+    max-height: 140px;
+    line-height: 45px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.text-img{
+    width: 25%;
+    height: 100%;
+    float: left;
+
+    padding: 0px;
+    max-height: 140px;
+    line-height: 45px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
