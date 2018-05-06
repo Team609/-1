@@ -1,0 +1,11 @@
+.yan{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.yan ul{
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
