@@ -1,6 +1,123 @@
 .table{
-    font-size: 25px;
+    font-size: 32px;
 
+
+}
+.table tr td a{
+    color: black;
+    text-decoration: none;
+}
+.table tr td a:hover,.table tr td a:active{
+    color: blue;
+}
+.button{
+    font-size: 35px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover,a:active{
+    color: #ff47f8;
+}
+h1{
+    font-size: 50px;
+}
+table,p,div{
+    font-size: 40px;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 30px;
+    width:100%;
+}
+ul,li{
+    list-style-type:none;
+}
+.clearfix{
+    clear: both;/*�������*/
+}
+    /*--header��nav--*/
+.header{
+    width:100%;
+    background:rgb(15, 20, 156);
+    padding:30px 0;
+    position:relative;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin:0 35px;
+    display:inline-block;/*��������Ϊ�鼶Ԫ��*/
+}
+nav ul li a{
+    font-family: 'Droid Serif', serif;
+    color: #fff;
+    font-size: 1.25em;/*20px��16px=1.25*/
+    font-weight:500;/*���������ϸ*/
+}
+nav ul li a:hover,nav ul li a.active{
+    color:#000;
+}
+#divcss5{
+    margin:0 auto;
+    border:1px solid #000;
+}
+div{
+    margin: 0 auto;
+    width: 90%;
+    border: 0px solid #999999;
+    color: #555555;
+    overflow: hidden;
+}
+div div {
+    padding: 0px;
+    max-height: 140px;
+    line-height: 45px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.nav {
+    background: #0f149c;
+    padding: 10px 0 6px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.nav ul {
+    height: 0px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-weight: normal;
+}
+.nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul li span{
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    font-family: "微软雅黑";
+    line-height: 40px;
 }
 input{
     opacity: 0;
@@ -21,13 +138,13 @@ input:hover {
     position: relative;
 }
 .fileinput{
-    height: 42%;
+    height: 55%;
     width: 35%;
     overflow: hidden;
     font-size: 0px;
     position: absolute;
-    right: 10%;
-    top: 37%;
+    right: 32%;
+    top: 32%;
     opacity: 0;
     filter: alpha(opacity=0);
     cursor: pointer;
