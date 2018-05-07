@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <link href="sent%20message.css" rel="stylesheet" type="text/css"/>
+    <script>
+        var x;
+        var a=new Array("content1","content2","content3","content4","content5","content6","content7");
+        var b=new Array("s1","s2","s3","s4","s5","s6","s7");
+        var i=0;
+        function  demo1() {
+          x=document.getElementById("txt");
+          var y=x.value;//alert(y);
+          var val=document.getElementById(a[i]);
+          val.innerText=y+"\n";
+          if(y=="")return;
+          x.value="";
+          document.getElementById(b[i]).src="img/19.jpg";
+          i++;
+        }
+    </script>
+</head>
+<body>
+    <div class="first-line">
+        <a href="My%20friend.html" class="a2">返回</a>
+        <h6>有味是清欢</h6>
+    </div>
+
+    <section class="sec">
+        <section>
+            <aside class="box">
+                <div>
+                    <img id="s1"/>
+                    <div class="box3">
+                         <div class="fontsize"id="content1"></div>
+                    </div>
+                </div>
+                <div class="clearfix1"></div>
+                <div>
+                    <img id="s2"/>
+                    <div class="box3">
+                        <div class="fontsize"id="content2"></div>
+                    </div>
+                </div>
+                <div class="clearfix1"></div>
+                <div>
+                    <img id="s3"/>
+                    <div class="box3">
+                        <div class="fontsize"id="content3"></div>
+                    </div>
+                </div>
+                <div class="clearfix1"></div>
+                <div>
+                    <img id="s4"/>
+                    <div class="box3">
+                        <div class="fontsize"id="content4"></div>
+                    </div>
+                </div>
+                <div class="clearfix1"></div>
+                <div>
+                    <img id="s5"/>
+                    <div class="box3">
+                        <div class="fontsize"id="content5"></div>
+                    </div>
+                </div>
+
+
+            </div>
+            </aside>
+        </section>
+
+        <div class="sent">
+            <textarea  id="txt"class="box1"></textarea>
+            <div class="button2">
+                <button class="button1"onclick="demo1()">发送</button><div class="clearfix1"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

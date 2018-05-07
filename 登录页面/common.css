@@ -1,0 +1,26 @@
+.tex ,.tex2{
+
+    width:80%;
+    border:5px solid saddlebrown;
+    font-size: 80px;
+    color:white;
+
+}
+.tex4{
+    height:60px;
+    width: 20%;
+
+}
+.tex5,.tex4{
+    font-size: 50px;
+}
+.tex,.tex2{
+    height: 150px;
+    background-color: aqua;
+}
+.tex2{
+    margin-top: 40px;
+}
+.tex3{
+    width:35%;
+}
