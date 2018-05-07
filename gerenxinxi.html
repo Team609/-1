@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>个人中心</title>
+    <script type="text/javascript">
+        window.onload=function(){
+            var oclick;
+            var obj=document.getElementsByTagName("a");
+            for(var i=0;i<obj.length;i++){
+                obj[i].style.color="white";
+                obj[i].onclick=function(){
+                    if(oclick){
+                        oclick.style.color="white";
+                    } this.style.color="#F00"; oclick=this;
+                }; } };
+    </script>
     <link rel="stylesheet" href="gerenxinxi.css">
 </head>
 <body>
@@ -21,7 +33,7 @@
     </div>
 </div>
 <div align="right" style="right: 0">
-    <a href="#" class="button">编辑资料<img src="photos/39H58PIC5cM_1024.png" width="31.5" height="35" ></a>
+    <a href="#" class="button"><img src="photos/39H58PIC5cM_1024.png" width="31.5" height="35" ></a>
 </div>
 <div style="left: 30%">
 
@@ -109,7 +121,7 @@
 <div class="nav">
     <ul>
         <li>
-            <a href="#"><!--span><img src="images/ni4.jpg" height="20"</span--><span>返回登录</span></a>
+            <a href="登录页面/sign%20in.html"><!--span><img src="images/ni4.jpg" height="20"</span--><span>返回登录</span></a>
         </li>
         <li style="position:relative;">
             <a href="#"><!--span><img src="images/ni3.jpg" height="20"></span--><span>发帖</span></a>

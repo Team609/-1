@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>主页-游客版</title>
+    <script type="text/javascript">
+        window.onload=function(){
+            var oclick;
+            var obj=document.getElementsByTagName("a");
+            for(var i=0;i<obj.length;i++){
+                obj[i].style.color="white";
+                obj[i].onclick=function(){
+                    if(oclick){
+                        oclick.style.color="white";
+                    } this.style.color="#F00"; oclick=this;
+                }; } };
+    </script>
     <link href="../HWL-css/head-luntan.css" rel="stylesheet" type="text/css">
 </head>
 <style type="text/css">
@@ -16,7 +28,7 @@
     <div class="container">
         <nav>
             <ul>
-                <li><a href="head-luntan.html"> 论坛</a></li>
+                <li><a href="head-luntan-youke.html"> 论坛</a></li>
                 <li><a href="http://news.hnust.cn/xyxw/index.htm"> 新闻</a></li>
                 <li><a href="#"> 咨询</a></li>
                 <li><a href="http://www.hnust.cn/xshd/"> 活动</a></li>
@@ -182,13 +194,13 @@
 <div class="nav">
     <ul>
         <li style="text-align: right; float: left; width: 40%;">
-            <a href="#"><!--span><img src="images/ni4.jpg" height="20"</span--><span>登录</span></a>
+            <a href="../登录页面/sign%20in.html"><!--span><img src="images/ni4.jpg" height="20"</span--><span>登录</span></a>
         </li>
         <li  style="float: left; width: 10%; text-align: right">
             <span>/</span>
         </li>
         <li  style="text-align: left;float: left; width: 40%;">
-            <a href="#"><!--span><img src="images/ni3.jpg" height="20"></span--><span>注册</span></a>
+            <a href="../zhuce.html"><!--span><img src="images/ni3.jpg" height="20"></span--><span>注册</span></a>
         </li>
     </ul>
 </div>

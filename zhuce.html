@@ -3,6 +3,18 @@
 <head>
     <meta charset="utf-8">
     <title>在校师生实名注册</title>
+    <script type="text/javascript">
+        window.onload=function(){
+            var oclick;
+            var obj=document.getElementsByTagName("a");
+            for(var i=0;i<obj.length;i++){
+                obj[i].style.color="blue";
+                obj[i].onclick=function(){
+                    if(oclick){
+                        oclick.style.color="blue";
+                    } this.style.color="red"; oclick=this;
+                }; } };
+    </script>
     <link type="text/css" rel="stylesheet" href="zhuce.css">
 </head>
 
@@ -104,7 +116,7 @@
             以及各项具体<a href="#">论坛细则</a>。
         </li>
             <li>
-            <button class="submit" type="submit"><a href="#"style="color: white" class="a">立即注册</a></button>
+            <button class="submit" type="submit"><a href="登录页面/sign%20in.html" 　style="color: white" class="a">立即注册</a></button>
         </li>
         </ul>
     </form>

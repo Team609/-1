@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>主页</title>
+    <script type="text/javascript">
+        window.onload=function(){
+            var oclick;
+            var obj=document.getElementsByTagName("a");
+            for(var i=0;i<obj.length;i++){
+                obj[i].style.color="white";
+                obj[i].onclick=function(){
+                    if(oclick){
+                        oclick.style.color="white";
+                    } this.style.color="#F00"; oclick=this;
+                }; } };
+    </script>
     <link href="../HWL-css/head-luntan.css" rel="stylesheet" type="text/css">
 </head>
 <style type="text/css">
@@ -186,7 +198,7 @@
 <div class="nav">
     <ul>
         <li>
-            <a href="#"><!--span><img src="images/ni4.jpg" height="20"</span--><span>返回登录</span></a>
+            <a href="../登录页面/sign%20in.html"><!--span><img src="images/ni4.jpg" height="20"</span--><span>返回登录</span></a>
         </li>
         <li style="position:relative;">
             <a href="#"><!--span><img src="images/ni3.jpg" height="20"></span--><span>发帖</span></a>
@@ -195,7 +207,7 @@
             <a href="#"><!--span><img src="images/ni2.jpg" height="20"></span--><span>论坛好友</span></a>
         </li>
         <li>
-            <a href="..\gerenxinxi.html"><!--span><img src="images/ni5.jpg" height="20"></span--><span>个人中心</span></a>
+            <a href="../gerenxinxi.html"><!--span><img src="images/ni5.jpg" height="20"></span--><span>个人中心</span></a>
         </li>
     </ul>
 </div>
