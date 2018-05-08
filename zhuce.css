@@ -8,9 +8,10 @@ a{
     text-decoration: none;
     color: red;
 }
-.a{
 
+.a{
     font-size: 30px;
+    text-align: center;
 }
 .h{
     top: 0;
