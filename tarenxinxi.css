@@ -1,0 +1,42 @@
+.table{
+    font-size: 32px;
+
+
+}
+.table tr td a{
+    color: black;
+    text-decoration: none;
+}
+.table tr td a:hover,.table tr td a:active{
+    color: blue;
+}
+.button{
+    font-size: 35px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover,a:active{
+    color: #ff47f8;
+}
+h1{
+    font-size: 50px;
+}
+table,p,div{
+    font-size: 40px;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    margin: 20px;
+
+
+}
