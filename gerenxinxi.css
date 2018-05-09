@@ -10,6 +10,14 @@
 .table tr td a:hover,.table tr td a:active{
     color: blue;
 }
+.img{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    margin: 20px;
+
+
+}
 .button{
     font-size: 35px;
 }
