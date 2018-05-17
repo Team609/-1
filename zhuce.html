@@ -41,8 +41,8 @@
                 <input type="text" id="name" name="name" required placeholder="例如：奥特曼">
             </li>
             <li class="usually">
-            <span>密码:</span>
-            <input type="password"  name="password" required />
+                <span>密码:</span>
+                <input type="password"  name="password" required />
             </li>
             <li class="usually">
                 <span>确认密码:</span>
@@ -54,12 +54,11 @@
             </li>
             <li class="special">
             <span >性别:</span>
-            <input type="radio" name="sex" id="male" checked/>
-            <label for="male">男</label>
-            <input type="radio" name="sex" id="female" />
-            <label for="female">女</label>
-                <input type="checkbox" id="football1" name="interest" />
-                <label for="football1">不展示我的性别</label>
+                <select class="select">
+                    <option selected="selected">男</option>
+                    <option>女</option>
+                    <option>不显示</option>
+                </select>
         </li>
             <li class="usually">
                 <span>年龄:</span>
@@ -67,7 +66,7 @@
             </li>
             <li class="usually">
                 <span>院系年级</span>
-                <input type="text"  name="name" required placeholder="例如:计算机与工程学院17级本科生">
+                <input type="text"  name="name" required placeholder="例如:计算机与工程学院17级本科生" class="inputzi">
             </li>
             <li class="usually">
                 <span>居住地址</span>

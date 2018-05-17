@@ -90,10 +90,16 @@ a{
 }
 .contact_form textarea {padding:8px; width:300px;}
 .contact_form button {margin-left:156px;}
+.select{
+    font-size: 40px;
+}
 .special input {
     height:15px;
     width:40px;
     padding:5px 8px;
+}
+.inputzi{
+    font-size: 20px;
 }
 .usually input,
 .usually textarea {
