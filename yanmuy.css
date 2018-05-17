@@ -1,5 +1,8 @@
+
 .yan{
     width: 100%;
+    margin: 0;
+    padding: 0;
     position: absolute;
     top: 0;
 }
@@ -8,4 +11,17 @@
     list-style: none;
     margin: 0px;
     padding: 0px;
+}
+.yan li{
+    background: lightsteelblue;
+}
+.submit {
+    background-color: lightsteelblue;
+    font-style: normal;
+}
+li.button{
+    background: lightsteelblue;
+}
+.i{
+    background-color: aliceblue;
 }
