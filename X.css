@@ -1,21 +1,40 @@
+ul{
+    width: 80%;
+}
+li{
+    width: 23%;
+}
+ul,li{
+    float: left;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 .x1{
     width: 100%;
+
 }
 .x2{
     width: 100%;
 }
 .x3{
-    left: 0%;
+
+    font-size: 40px;
 }
 .x4{
     top: 0px;
     position: relative;
+    font-size: 40px;
 }
 .x5{
+    font-size: 40px;
+
     width: 96%;
     align-content: center;
     padding-left: 2%;
     text-indent: 2em;
+
 }
 .x6{
     width: 100%;

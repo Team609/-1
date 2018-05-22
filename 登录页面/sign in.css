@@ -17,6 +17,7 @@ div img{
 div{
     color:white;
 }
+
 input:focus{
     border: 5px solid #727b82;
 }
